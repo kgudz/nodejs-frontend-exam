@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import TableComponent from './TableComponent';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Styles
+import 'bulma/css/bulma.css';
+import './assets/css/style.css';
+
+/*
+ * Render TableComponent to root container 
+ */
+ReactDOM.render(<TableComponent />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
